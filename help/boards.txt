@@ -1,0 +1,4 @@
+
+boards -- List available boards.
+Format: boards
+

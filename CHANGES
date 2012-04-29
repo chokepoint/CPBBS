@@ -1,0 +1,35 @@
+07/07/05: Comments updated
+07/07/05: Created motd and banner files. 
+Banner.txt is displayed on connection.
+MOTD.txt is displayed on successful login.
+07/07/05: Fixed exploit where you could register over anyone's user name.
+07/07/05: Updated the read command to accept an argument (the message index).
+07/07/05: Added input validation to the read command.
+07/07/05: Changed user name validation to only accept alpha characters.
+07/07/05: Changed help format.
+Help files now have their own directory. The default help is in help/index.txt.
+Read now accepts an argument. The argument must be comprised of nothing but letters.
+'.txt' is added to the end of the argument to get the file to open in the help/ directory.
+07/07/05: Changed cd to accept arguments only.
+07/07/05: Added srand() before randomizing the salts for crypt().
+07/12/05: 'passwd' format changed to accept argumens old_pass and new_pass.
+07/12/05: Removed unused variable in log_event()
+07/12/05: Fixed several Buffer Over Flows by changing strcpy to strncpy and sprintf to snprintf.
+07/13/05: Added delboard command for admins. Deletes a given board.
+07/15/05: Added admin help command 'ahelp'
+07/15/05: Added useradd command for admins. Creates a new user account.
+07/15/05: Added addadmin command for admins. Makes a user an admin.
+08/22/05: Added Rock, Paper, and Scissors commands.
+08/22/05: Added stats for RPS game.
+08/23/05: Changed stats command to allow stats of other players.
+09/29/05: Added private message system.
+09/30/05: Added two new defines BBS (name of the bbs) and VERSION (BBS version)
+10/20/05: Removed ability to bypass login all together by pressing ctrl+d
+10/20/05: Changed several command names and updated help files.
+11/08/05: Fixed so that you can safely run two daemons at once. (I hope)
+There was a problem with posting at the same time, could corrupt the index of the board.
+11/08/05: Changed a system(mkdir) to mkdir(path); (Wanted to eliminate the system() call)
+11/08/05: Date/Time stamping on public and personal messages.
+11/15/05: When executed locally, we use termios package to mask the password
+12/03/05: Added config.txt and removed hard coded path configurations. 
+12/03/05: Added clrmsgs command... deletes all personal messages.

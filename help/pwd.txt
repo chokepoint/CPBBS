@@ -1,0 +1,4 @@
+
+pwd -- Print the board you're currently visiting.
+Format: pwd
+

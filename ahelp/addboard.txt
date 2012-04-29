@@ -1,0 +1,5 @@
+
+addboard -- Add a new board for discussion
+Format: addboard <new board name>
+Example: addboard linux
+

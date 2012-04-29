@@ -1,0 +1,5 @@
+
+pread -- Read private messages.
+Format: pread <n>
+Example: pread 0
+

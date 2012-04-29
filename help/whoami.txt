@@ -1,0 +1,4 @@
+
+whoami -- Print the current user name.
+Format: whoami
+

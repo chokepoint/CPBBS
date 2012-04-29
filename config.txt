@@ -1,0 +1,9 @@
+BBS = CPBBS
+VERSION = 1.5.5
+PATH = /home/cpbbs/cpbbs
+LOG_PATH = logs
+BOARD_PATH = boards
+PROFILE_PATH = profiles
+PRIVATE_PATH = private
+HELP_PATH = help
+AHELP_PATH = ahelp

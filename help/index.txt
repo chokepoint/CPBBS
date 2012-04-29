@@ -1,0 +1,22 @@
+
+Command list.
+boards	      List available boards.
+cd	      Change directories.
+clrmsgs	      Clear all personal messages.
+exit	      Leave the BBS.
+help	      Display this screen.
+mlist	      List messages in current topic.
+mpost	      Post a message in your current category.
+mread	      Read a given message.
+paper	      Choose paper to play Rock Paper Scissors.
+passwd	      Change current password.
+plist	      List private messages.
+ppost	      Send a private message.
+pread	      Read a private message.
+pwd	      Print current directory.
+rock	      Choose rock to play Rock Paper Scissors.
+scissors      Choose scissors to play Rock Paper Scissors.
+stats	      Display Rock Paper Scissors statistics.
+whoami	      Print current username.
+For more information about a command type 'help <command>'
+

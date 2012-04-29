@@ -1,0 +1,4 @@
+
+ppost -- Send a private message to a user.
+Format: ppost
+

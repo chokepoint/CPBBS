@@ -1,0 +1,7 @@
+
+useradd -- Add a new user account.
+Format: useradd <user name> <1/0>
+The second argument should be 1 to make the user an admin.
+The second argument should be 0 to make the user a non admin.
+Example: useradd newguy 0
+

@@ -1,0 +1,4 @@
+
+exit -- Leave the CP BBS.
+Format: exit
+

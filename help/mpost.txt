@@ -1,0 +1,4 @@
+
+mpost -- Post a message in your current board.
+Format: mpost
+

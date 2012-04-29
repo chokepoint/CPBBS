@@ -1,0 +1,4 @@
+
+plist -- List your private messages.
+Format: plist
+

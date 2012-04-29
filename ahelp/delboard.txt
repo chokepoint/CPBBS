@@ -1,0 +1,5 @@
+
+delboard -- Delete a given board.
+Format: delboard <board to delete>
+Example: delboard programming
+

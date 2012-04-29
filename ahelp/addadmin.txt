@@ -1,0 +1,5 @@
+
+addadmin -- Make an existing user an admin.
+Format: addadmin <user name>
+Example: addadmin idiot
+

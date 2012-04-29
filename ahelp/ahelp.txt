@@ -1,0 +1,5 @@
+
+ahelp -- Display help about a given admin topic.
+Format: ahelp <topic>
+Example: ahelp addboard
+

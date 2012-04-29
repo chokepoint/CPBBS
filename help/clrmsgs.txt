@@ -1,0 +1,4 @@
+
+clearmessages -- Clear all of your personal messages.
+Format: clearmessages
+

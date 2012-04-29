@@ -1,0 +1,6 @@
+
+stats -- Display Rock Paper Scissors stats for a given player.
+Format: stats stderr
+
+If you don't enter an argument, your own stats will be displayed.
+

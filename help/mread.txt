@@ -1,0 +1,5 @@
+
+mread -- Read messages.
+Format: mread <n>
+Example: mread 0
+

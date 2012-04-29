@@ -1,0 +1,4 @@
+
+passwd -- Changes your password.
+Format: passwd <old_pass> <new_pass>
+

@@ -1,0 +1,4 @@
+
+mlist -- List the messages in your current board.
+Format: mlist
+

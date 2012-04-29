@@ -1,0 +1,4 @@
+To compile the program, edit the settings in config.txt to fit your home 
+directory.
+
+gcc cpbbs.c -o cpbbs -lcrypt

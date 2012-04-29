@@ -1,0 +1,5 @@
+
+help -- Display help about a given topic.
+Format: help <topic>
+Example: help read
+

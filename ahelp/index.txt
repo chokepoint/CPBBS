@@ -1,0 +1,8 @@
+
+Admin command list.
+addadmin      Give an account admin commands.
+addboard      Add a new discussion board.
+delboard      Delete a discussion board.
+useradd	      Create a new user.
+For more information about a command type 'ahelp <command>'
+

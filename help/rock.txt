@@ -1,0 +1,4 @@
+
+rock -- Chose rock for Rock Paper Scissors.
+Format: rock
+

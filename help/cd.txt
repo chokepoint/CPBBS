@@ -1,0 +1,6 @@
+
+cd -- Change the board that you are viewing.
+Format: cd <board>
+Changes to the board specified by the first argument.
+Example: cd programming
+
