@@ -1,0 +1,30 @@
+ChokePoint Bulletin Board System v. 1.5.5
+
+The CPBBS is a simple BBS type program that is run in the console.
+CPBBS can easily be configured to run on your modem, or listen on a TCP 
+port.
+
+Setting up CPBBS to run on your modem:
+To setup agetty to answer the phone on the first ring use the following command.
+
+**NOTE** Before using the following command you need to initialize your modem
+with a program like minicom, and exit without resetting the modem.
+
+# agetty -m 38400,19200,9600,2400,1200 modem vt100 -n -w -l 
+/home/cpbbs/cpbbs -I 'ATS0=1\015'
+
+Change the =1 to =x to answer after x rings.
+
+Setting up CPBBS to run on a TCP port:
+First off you need to make sure you have netcat on your system.
+
+# nc -l -p 42448 -e /home/cpbbs/cpbbs
+
+Neither of these commands will restart the BBS after the person exits. If you want
+to accomplish this using agetty, look in /etc/inittab. To do the same thing using 
+netcat... Write your own.
+
+Also works great as a shell for ssh / linux console. Just change in
+/etc/passwd for the user...
+
+Questions or comments please email me (stderr) (admin@chokepoint.net)
